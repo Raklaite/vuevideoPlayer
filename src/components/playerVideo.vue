@@ -102,7 +102,7 @@ export default {
       var self = this
       self.seekbar = (self.vid.currentTime / self.vid.duration) * 100
       self.time = self.vid.currentTime.toFixed(1)
-      setInterval(self.updateTime, 10000)
+      setInterval(self.updateTime, 1000)
     }
   },
   mounted () {
