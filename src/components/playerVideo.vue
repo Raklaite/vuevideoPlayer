@@ -58,6 +58,7 @@ export default {
     }
   },
   methods: {
+    // last testwith buffering time
     toggleTest () {
       console.log('Start: ' + this.vid.buffered.start(0) + ' End: ' + this.vid.buffered.end(0))
     },
